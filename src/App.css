@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*... homepage start... */
+.navbar-brand::first-letter{
+    font-size: 40px;
+    line-height: 1;
+}
+.navbar-brand span{
+    top: 10px;
+}
+/*... homepage end... */
+
+
+/*... create profile page start... */
+.create-profile{
+}
+.create-profile h1,.create-profile form{
+    max-width: 40rem;
+    margin: 1rem auto;
+} 
+.create-profile .footer-line{
+    /* margin-left:-22rem  ;
+    margin-right: -22rem; */
+    max-width: 150%;
+    margin: 1rem 0;
+}
+.create-profile .cancel-form{
+    font-size: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*... create profile page end... */
